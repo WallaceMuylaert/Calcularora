@@ -60,7 +60,7 @@ class CalculatorGui:
             self.display.insert('end', result)
             self.label.config(text=f'{equation} = {result}')
         except OverflowError:
-            self.label.config(text='Não consegui realizar essa conta, sorry!')
+            self.label.config(text='Não consegui realizar essa conta!')
         except Exception:
             self.label.config(text='Conta inválida')
 
