@@ -5,7 +5,7 @@ from typing import List
 def make_root() -> tk.Tk:
     root = tk.Tk()
     root.title('Calculator')
-    root.config(padx=10, pady=10, background='#fff')
+    root.config(padx=3, pady=3, background='#fff')
     root.resizable(False, False)
     return root
 
